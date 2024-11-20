@@ -1,0 +1,58 @@
+name: SenCash
+description: "A new Flutter project."
+
+publish_to: 'none' # Supprimez cette ligne si vous souhaitez publier sur pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.0.0  # Vérifiez la dernière version disponible de Dio
+  http: ^1.2.2  # Vérifiez la dernière version disponible de http
+  provider: ^6.1.2 # Essayer une version antérieure compatible
+  flutter_keychain: ^2.5.0  # Changez à cette version
+  get_it: ^7.2.0  # Use the latest version available
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  cryptography: ^2.0.0  # Si je dois chiffrer les données
+  mobile_scanner: ^3.4.1
+  contacts_service: ^0.6.3  # Add this package
+  permission_handler: ^10.2.0  # New dependency
+  intl: ^0.18.0 # Make sure the version is appropriate for your Flutter setup
+  decimal: ^2.3.3
+  flutter_secure_storage: ^5.0.2
+  json_annotation: ^4.0.0  # Ajoutez la dépendance json_serializable
+  json_serializable: ^6.0.1
+  flutter_riverpod: ^2.0.0 # Replace with the latest version
+
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2  # Assurez-vous qu'il est dans dev_dependencies, sans sdk
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/profilOdc.jpg"  # Chemin vers votre icône personnalisée
+
+flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profilOdc.jpg  # Remplacez par vos images supplémentaires
